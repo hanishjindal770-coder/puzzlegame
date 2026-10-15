@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Tidepool Blocks</string>
+    <string name="title_activity_main">Tidepool Blocks</string>
+    <string name="package_name">com.hanish.tidepoolblocks</string>
+    <string name="custom_url_scheme">com.hanish.tidepoolblocks</string>
+</resources>

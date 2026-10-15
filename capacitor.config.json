@@ -1,0 +1,16 @@
+{
+  "appId": "com.hanish.tidepoolblocks",
+  "appName": "Tidepool Blocks",
+  "webDir": "www",
+  "backgroundColor": "#0A1F2E",
+  "android": {
+    "backgroundColor": "#0A1F2E"
+  },
+  "plugins": {
+    "SystemBars": {
+      "insetsHandling": "css",
+      "initialViewportFitValueHint": "cover",
+      "style": "DARK"
+    }
+  }
+}

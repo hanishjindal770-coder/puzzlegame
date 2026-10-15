@@ -1,0 +1,18 @@
+{
+  "name": "tidepool-blocks",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tidepool Blocks: a no-login block puzzle for Android and the web.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "sync": "npm run build && npx cap sync android",
+    "open": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "8.5.2",
+    "@capacitor/core": "8.5.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.2"
+  }
+}
