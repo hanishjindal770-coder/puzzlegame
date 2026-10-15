@@ -18,19 +18,17 @@ jobs:
       VERSION_NAME: ${{ startsWith(github.ref, 'refs/tags/v') && github.ref_name || format('1.0.{0}', github.run_number) }}
       HAS_KEYSTORE: ${{ secrets.ANDROID_KEYSTORE_BASE64 != '' }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 21
-
-      - uses: android-actions/setup-android@v3
 
       - name: Build web game and copy it into the Android project
         run: |
